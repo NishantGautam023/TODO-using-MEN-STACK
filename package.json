@@ -1,0 +1,32 @@
+{
+  "name": "todoapplication",
+  "version": "1.0.0",
+  "description": "A TODO app made using MongoDB, ExpressJs and NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NishantGautam023/TODO-using-MEN-STACK.git"
+  },
+  "keywords": [
+    "TODO",
+    "MEN",
+    "NODEJS",
+    "ExpressJS",
+    "MongoDB"
+  ],
+  "author": "Nishant Gautam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NishantGautam023/TODO-using-MEN-STACK/issues"
+  },
+  "homepage": "https://github.com/NishantGautam023/TODO-using-MEN-STACK#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.8"
+  }
+}
