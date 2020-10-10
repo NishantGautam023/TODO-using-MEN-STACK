@@ -4,7 +4,7 @@ const port = 8000;
 const app = express();
 
 app.use(express.urlencoded());
-app.use(express.static('assets')); // use the middleware access the static files 
+app.use(express.static('assets')); // use this middleware access the static files 
 
  // set our view engine
  app.set('view engine','ejs');
