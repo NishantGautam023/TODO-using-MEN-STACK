@@ -1,6 +1,8 @@
 const express = require('express');
 const port = 8000;
 
+// requring the databse
+const db = require('./config/mongoose');
 const app = express();
 
 app.use(express.urlencoded());
@@ -26,3 +28,4 @@ app.listen(port, function(err) {
     }
     console.log(`The Server is running successfully on Port number: ${port}`)
 })
+
